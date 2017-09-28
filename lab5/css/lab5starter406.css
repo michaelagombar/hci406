@@ -1,0 +1,129 @@
+/* 
+    This is lab5.css starter created Summer 2017 to work with lab5starter.html 
+    Author:  Danny Mittleman
+*/
+
+
+/* 
+    This would be a good place to put your @import font statement if directed to import a Google Font. 
+*/
+
+
+/*  
+Sets box-sizing to border-box for page  
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 0.625em;
+    /* This sets the default font size to the browser default, almost certainly 16px */
+}
+
+body {
+    background-color: cadetblue;
+}
+
+.pageWrapper {
+    background-color: #fcfffd;
+    overflow: hidden;
+    border-radius: .28em;
+    box-shadow: 0.4em 0.4em 0.9em #042;
+    width: 100em;
+    padding: 0.5em;
+    margin-top: 1em;
+    /* this keeps boxes inside of the container when floats are applied.  Take it out and see what happens! */
+}
+
+.pageHeader {
+    font-size: 6em;
+    letter-spacing: .5em;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+}
+
+figure {
+    width: 20em;
+    position: relative;
+}
+
+img {
+    width: 100%
+}
+
+.title {
+    text-align: center;
+    font-size: 2.4em;
+}
+
+.patternBox {
+    background-color: #fcfffd;
+    border: dotted #042 0.125em;
+    width: 48.5em;
+    min-height: 26em;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    font-size: 1em;
+}
+
+.patternBox:nth-of-type(odd) {
+    float: left;
+}
+
+.patternBox:nth-of-type(even) {
+    float: right;
+}
+
+
+/* I used pseudo-classes to float the pattern boxes above as a demonstration of how pseudo-classes can be used.  While you WILL NOT use pseudo-classes to float boxes within each section, I this introduces the utility of learning about pseudo-classes. */
+
+.box {
+    border: solid .03em #042;
+    text-align: center;
+    font-weight: bold;
+    color: #042;
+    box-shadow: 0.0625em 0.0625em 0.0625em #042;
+    background-color: ghostwhite;
+    font-size: 3.2em;
+    width: 2.2em;
+    height: 2.0em;
+    margin: .25em;
+    padding-top: .3em;
+}
+
+
+/*    
+   Float Utility Classes 
+   I created these classes to simplify the application of floats to the block elements.  
+   While a float rule could be written for each box, 
+   applying the rules embedded in classes is much faster and more flexible, once the concept is understood. 
+*/
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearleft {
+    clear: left;
+}
+
+.clearright {
+    clear: right;
+}
+
+.clearboth {
+    clear: both;
+}

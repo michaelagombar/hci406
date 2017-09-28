@@ -1,0 +1,19 @@
+section {
+    display: block;
+    margin-top: 5em;
+}
+
+p:nth-of-type(3) {
+    margin-left: 1em;
+    font-style: italic;
+}
+
+p:nth-of-type(4) {
+    margin-left: 1em;
+    font-style: italic;
+}
+
+abbr {
+    border-style: solid;
+    border-color: red;
+}

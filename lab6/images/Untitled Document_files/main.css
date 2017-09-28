@@ -1,0 +1,41 @@
+html {
+    font-family: arial;
+}
+
+body {
+    font-size: 1em;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: .5fr 2fr .5fr;
+    grid-template-rows: .3fr 1fr 2fr 1fr 10fr 1fr;
+    background-color: crimson;
+    color: white;
+    grid-gap: 1em;
+    height: 100%;
+    font-size: 1em;
+}
+
+.masthead {
+    grid-column: 2;
+    grid-row: 2/6;
+    background-color: white;
+    color: crimson;
+    text-align: center;
+    border-radius: 2em;
+    font-size: 1em;
+}
+
+.main {
+    grid-column: 1;
+    grid-row: 3 / 3;
+    color: white;
+    text-decoration: underline;
+}
+
+.footer {
+    grid-row: 6;
+    grid-column: 2;
+    text-align: center;
+}

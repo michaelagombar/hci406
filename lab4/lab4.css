@@ -1,0 +1,105 @@
+body {
+    background-color: black;
+}
+
+.page-wrapper {
+    width: 60em;
+    margin: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    padding: 1.5em;
+    border-style: solid;
+    border-color: #ff7256;
+    border-width: thick;
+    background-image: url(../images/frond.png);
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    color: azure;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: sans-serif;
+    text-align: center;
+    color: azure;
+}
+
+header {
+    border-style: solid;
+    border-color: #ff7256;
+    background-color: aqua;
+    margin-bottom: 2em;
+    padding: 1em;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color: azure;
+}
+
+.summary,
+.preamble,
+.explanation,
+.participation,
+.benefits,
+.requirements {
+    border-style: solid;
+    border-color: #ff7256;
+    background-color: aqua;
+    margin-bottom: 2em;
+    padding: 1.5em;
+    border-radius: 2em;
+  
+}
+
+.summary {
+    font-style: italic;
+}
+
+p {
+    font-size: .8em;
+    font-family: "Courier", "times New Roman", serif;
+}
+
+a {
+    text-decoration: none;
+    color: coral;
+    font-weight: bold;
+}
+
+footer a {
+    border-color: #ff7256;
+    color: aqua;
+    font-weight: bold;
+    padding: .7em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: 2em;
+    font-family: sans-serif;
+    border-radius: 2em;
+    background-color: coral;
+}
+
+footer a:hover {
+    color: azure;
+}
+
+footer {
+    text-align: center;
+}
+
+.sidebar {
+    border-style: solid;
+    border-color: #ff7256;
+    background-color: aqua;
+    margin-top: 3em;
+    padding: 1em;
+    width: 20em;
+    border-radius: 2em;
+}

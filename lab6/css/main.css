@@ -1,0 +1,107 @@
+body {
+    background-color: crimson;
+    font-family: Arial;
+    border-color: black;
+}
+
+.wrapper {
+    border-color: dodgerblue;
+    border-style: solid;
+    width: 50em;
+    margin: auto;
+    height: auto;
+    background-color: aliceblue;
+    border-radius: 2.4em;
+    overflow: auto;
+}
+
+header {
+    background-image: url(../images/eminem.png);
+    height: 15em;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 3em;
+}
+
+nav {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    background-color: crimson;
+    width: 100%;
+    padding: 2em;
+    height: 4em;
+    border-color: dodgerblue;
+}
+
+aside {
+    position: fixed;
+    float: right;
+    margin: -15em;
+    color: white;
+    padding: 2.2em 1.2em;
+    width: 10%;
+    text-align: center;
+    border-color: dodgerblue;
+    border-style: solid;
+}
+
+h2 {
+    color: white;
+    text-decoration: underline;
+}
+
+.heading {
+    text-align: center;
+    color: crimson;
+    text-decoration: underline;
+}
+
+h3 {
+    color: crimson;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+article {
+    width: 75%;
+    float: left;
+}
+
+.colorsInfo {
+    float: left;
+    width: 45%;
+    padding-left: 1em;
+    height: 20em;
+}
+
+.colorsInfo p {
+    border-style: dashed;
+    border-color: dodgerblue;
+}
+
+.specialty {
+    float: right;
+    width: 45%;
+    padding-right: 1em;
+    height: 20em;
+}
+
+.specialty p {
+    border-style: dashed;
+    border-color: dodgerblue;
+}
+
+.colorsInfo img {
+    width: 25%;
+    height: 25%;
+    margin-left: 30%;
+}
+
+.specialty img {
+    width: 25%;
+    height: 25%;
+    margin-left: 30%;
+}

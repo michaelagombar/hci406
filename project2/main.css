@@ -1,0 +1,94 @@
+html {
+    font-family: arial;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: .5fr 2fr .5fr;
+    grid-template-rows: .1fr 2fr 5fr .5fr;
+    background-color: crimson;
+}
+
+.youtube iframe {
+    width: 560px;
+    height: 315px;
+}
+
+.youtube iframe,
+.youtube object,
+.youtube embed {
+    display: block;
+    overflow: hidden;
+    margin-left: 8em;
+    margin: 0 auto;
+}
+
+.footer {
+    grid-row: 4;
+    grid-column: 2;
+    text-align: center;
+    color: white;
+    font-size: .6em;
+    padding-top: 2.5em;
+}
+
+.main {
+    grid-column: 2;
+    grid-row: 2 / 4;
+    background-color: white;
+    text-align: center;
+    color: crimson;
+    border-radius: 1em;
+}
+
+.topnav {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    width: 50em;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top 1em;
+    overflow: hidden;
+    border-top: .4px solid black;
+    border-bottom: .4px solid black;
+    padding-top: .4em;
+    padding-bottom: .4em;
+}
+
+.topnav a {
+    text-align: center;
+    background-color: white;
+    padding: 0.7em 0.2em;
+    margin: 1em;
+    border-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.aside {
+    grid-column: 1;
+    grid-row: 3;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.winning {
+    border-radius: .5em;
+    border-style: solid;
+    border-color: crimson;
+    color: crimson;
+    margin: 1em;
+}
+
+.winning p {
+    color: black;
+}
+
+.titlesimg {
+    width: 10em;
+    margin-left: -.6em;
+    padding: -10em;
+}
